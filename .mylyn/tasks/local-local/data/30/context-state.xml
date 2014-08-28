@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cm7/src/app/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="56735" selectionTopPixel="55874"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cm7/src/app/listeners/dialog/DLOI_LCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1753" selectionTopPixel="1014"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/cm7/src/app/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="80" selectionOffset="94886" selectionTopPixel="98748"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/WORKS/WS/Eclipse_ADT/.metadata/.gitignore"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="91" selectionTopPixel="0"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
