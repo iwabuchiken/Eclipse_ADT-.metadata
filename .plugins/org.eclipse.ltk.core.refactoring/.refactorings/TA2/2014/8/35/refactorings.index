@@ -1,0 +1,49 @@
+1408838965013	Rename field 'main_bt_back'
+1408841514606	Rename local variable 'list_WP'
+1408842446643	Copy compilation unit
+1408842627145	Rename local variable 'wp'
+1408842632687	Rename local variable 'wp'
+1408844128294	Rename local variable 'new_TimeLabel'
+1408845590973	Rename enum constant 'DEC'
+1408847058327	Rename resource 'main_actv.xml'
+1408847389541	Rename resource 'menu_timeline_actv.xml'
+1408847686960	Rename resource 'dlg_filter_timeline.xml'
+1408856475565	Rename enum constant 'dlg_Filter_Timeline_OK'
+1408856515244	Rename enum constant 'dlg_Filter_Timeline_Reset'
+1408858134238	Rename enum constant 'GV_Filter_Timeline'
+1408860858393	Rename resource 'good_or_tick.png'
+1408862839582	Rename resource 'general_ib_ok_green_48x48.png'
+1408863050211	Rename resource 'edit_clear (1).png'
+1408864787567	Rename local variable 'bt_Reset'
+1408867822067	Rename field 'radioGroup1'
+1408867828123	Rename field 'dlg_filter_showlist_rg_1'
+1408867841032	Rename field 'radio0'
+1408867852431	Rename field 'radio1'
+1408923559507	Copy file
+1408923641462	Rename field 'button1'
+1408923665991	Rename field 'dlg_tmpl_ok_cancel_bt_cancel'
+1408923672443	Rename field 'dlg_tmpl_ok_cancel_bt_can'
+1408925103953	Rename resource 'kwikdisk.png'
+1408925202152	Copy file
+1408925303326	Rename resource 'actv_memo_opt_keywords_32x32.png'
+1408925357592	Rename resource 'actv_memo.xml'
+1408925369786	Rename resource 'actv_main.xml'
+1408930334254	Rename method '_compare_FileName'
+1408930422445	Rename type 'Comp_TI'
+1409009573925	Delete elements
+1409013062858	Rename local variable 'dlg1'
+1409013067931	Rename local variable 'dlg2'
+1409015470521	Rename resource 'actv_tn_bt_bottom_45x45.png'
+1409015476673	Rename resource 'actv_tn_bt_top_45x45.png'
+1409015511349	Rename resource 'ifm8_thumb_down_50x50.png'
+1409015521004	Rename resource 'ifm8_thumb_up_50x50.png'
+1409016591444	Rename field 'imageButton2'
+1409016601391	Rename field 'imageButton1'
+1409016613456	Rename field 'imageButton3'
+1409016641430	Rename field 'imageButton4'
+1409117529705	Copy file
+1409117626965	Copy file
+1409117646857	Copy files
+1409117724050	Copy file
+1409117772429	Copy files
+1409120768999	Copy file

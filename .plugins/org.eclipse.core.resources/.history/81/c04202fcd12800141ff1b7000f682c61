@@ -1,0 +1,44 @@
+package ta2.items;
+
+public class ListItem {
+
+	String	text;
+	
+	int		iconID;
+
+	public String getText() {
+		return text;
+	}
+
+	public int getIconID() {
+		return iconID;
+	}
+
+	public void setText(String text) {
+		this.text = text;
+	}
+
+	public void setIconID(int iconID) {
+		this.iconID = iconID;
+	}
+	
+	public static class Builder {
+		
+		String	text;
+		
+		int		iconID;
+
+		public Builder setText(String text) {
+			this.text = text; return this;
+		}
+
+		public Builder setIconID(int iconID) {
+			this.iconID = iconID; return this;
+		}
+
+		
+		
+	}
+
+	
+}

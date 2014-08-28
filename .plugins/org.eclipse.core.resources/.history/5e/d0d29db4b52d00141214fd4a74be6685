@@ -1,0 +1,153 @@
+<resources>
+
+    <string name="app_name">cm7</string>
+    
+        <!-- Generic items -->
+	    <string name="generic_bt_ok">OK</string>
+	    <string name="generic_bt_cancel">キャンセル</string>
+	    <string name="generic_bt_back">Back</string>
+	
+	    <string name="generic_tv_confirm">確認</string>
+	    <string name="generic_tv_menu">メニュー</string>
+	    <string name="generic_tv_register">登録</string>
+	    <string name="generic_tv_edit">編集</string>
+	    <string name="generic_tv_delete">削除</string>
+   		<string name="generic_tv_no_data">No data</string>
+   		<string name="generic_bt_quit">終了</string>
+   		<string name="generic_message_quit">Quit the app?</string>
+    	<string name="generic_notice">Notice</string>
+    	<string name="generic_confirm_delete_file">Delete file, too</string>
+    
+    <!-- main.xml -->
+    <string name="main_tv_dir_path">Dir path</string>
+
+    <!-- menu_main.xml -->
+    <string name="opt_menu_main_db">DB</string>
+    <string name="opt_menu_main_create_dir">Create dir</string>
+    <string name="opt_menu_main_settings">Settings</string>
+
+    <!-- dlg_db_admin.xml -->
+   	<string name="dlg_db_admin_title">DB Admin</string>
+   	<string name="dlg_db_admin_item_backup_db">Backup DB</string>
+   	<string name="dlg_db_admin_item_refresh_db">Refresh DB</string>
+   	<string name="dlg_db_admin_item_exec_sql">Exec sql</string>
+   	<string name="dlg_db_admin_item_restore_db">Restore DB</string>
+   	<string name="dlg_db_admin_item_impfile">Import file</string>
+   	
+   	<string name="dlg_db_admin_item_operations">Operations</string>
+   	
+   	<string name="dlg_db_admin_item_drop_table_cm7">Drop table: cm7</string>
+   	<string name="dlg_db_admin_item_create_table_cm7">Create table: cm7</string>
+   	
+   	<string name="dlg_db_admin_item_drop_table_refresh_history">
+   	    									Drop table: refresh_history</string>
+   	<string name="dlg_db_admin_item_create_table_refresh_history">
+   	    									Create table: refresh_history</string>
+   	    									
+   	<string name="dlg_db_admin_item_drop_table_bm">
+   	    									Drop table: bm</string>
+   	<string name="dlg_db_admin_item_create_table_bm">
+   	    									Create table: bm</string>
+   	    									
+   	<string name="dlg_db_admin_item_drop_table_memo_patterns">
+   	    									Drop table: memo_patterns</string>
+   	<string name="dlg_db_admin_item_create_table_memo_patterns">
+   	    									Create table: memo_patterns</string>
+   	    									
+    <!-- ALActv.java -->
+    	<string name="al_actv_menu_move_mode">Move mode</string>
+    	<string name="al_actv_menu_move_files">Move</string>
+
+    	
+    <!-- actv_play.xml -->
+    	<string name="actv_play_bt_play">Play</string>
+    	<string name="actv_play_bt_stop">Stop</string>
+    	<string name="actv_play_bt_backward">&lt;&lt;</string>
+    	<string name="actv_play_bt_forward">&gt;&gt;</string>
+    	
+		<string name="actv_play_bt_add_bm">Add bookmark</string>
+   		<string name="actv_play_bt_see_bm">See bookmarks</string>
+   		<string name="actv_play_tv_bm_label">Bookmark</string>
+
+    <!-- menu_actv_play.xml -->
+    	<string name="menu_actv_play_register_pattern">Register pattern</string>
+
+    <!-- dlg_bmactv_list_long_click -->
+  		<string name="dlg_bmactv_list_long_click_title">Bookmark</string>
+
+    <!-- dlg_alactv_list_long_click -->
+  		<string name="dlg_alactv_list_long_click_title">AI</string>
+  		<string name="dlg_alactv_list_long_click_item_move">Move</string>
+
+  	<!-- dialog: delete BM -->
+		<string name="dlg_conf_delete_bm_tv_message">Delete BM?</string>
+		
+  	<!-- dialog: delete AI -->
+		<string name="dlg_conf_delete_ai_tv_message">Delete AI?</string>
+		
+   	<!-- dlg_edit_item.xml -->
+   		<string name="dlg_edit_item_title">Edit bookmark</string>
+   		<string name="dlg_edit_item_bm_title">Title</string>
+   		<string name="dlg_edit_item_memo">Memo</string>
+
+   	<!-- dlg_edit_ai.xml -->
+   		<string name="dlg_edit_ai_title">Edit AI</string>
+   		<string name="dlg_edit_ai_tv_file_name">File name</string>
+   		<string name="dlg_edit_ai_tv_file_path">File path</string>
+   		<string name="dlg_edit_ai_tv_title">Title</string>
+   		<string name="dlg_edit_ai_tv_memo">Memo</string>
+
+    <!-- dlg_edit_title.xml -->
+    	<string name="dlg_playactv_edit_ai_title_title">Edit title</string>
+    	<string name="dlg_playactv_edit_ai_memo_title">Edit memo</string>
+    	<string name="dlg_playactv_edit_ai_add_patterns">Patterns</string>
+
+    <!-- dlg_create_folder.xml -->
+	    <string name="dlg_create_folder_title">Create folder</string>
+	    <string name="dlg_create_folder_tv_message">Folder name</string>
+    		
+    <!-- dlg_input_empty.xml -->
+	    <string name="dlg_input_empty_message">No input</string>
+	
+	<!-- dlg_confirm_create_folder.xml -->
+    	<string name="dlg_confirm_create_folder_tv_message">
+    	    						Create dir?</string>
+	    
+    									
+   								
+    <!-- dlg_ImpActv -->
+    	<string name="dlg_impactv_list_title">ImpActv</string>
+    	<string name="dlg_impactv_list_item_import">Import file</string>
+    	
+    <!-- PrefActv -->
+    	<string name="prefactv_title_bgm">Use BGM</string>
+    	<string name="prefactv_key_bgm">prefactv_key_bgm</string>
+    	<string name="prefactv_summary_bgm">Music played when checked</string>
+    	
+    	<string name="prefactv_title_resume_position">Resume position</string>
+    	<string name="prefactv_key_resume_position">
+    	    						prefactv_key_resume_position</string>
+    	<string name="prefactv_summary_resume_position">
+    	    						Play from where stopped</string>
+    	    						
+    	<string name="prefactv_title_step_length">Step length</string>
+    	<string name="pkey_prefactv_step_length">
+    	    						pkey_prefactv_step_length</string>
+    	<string name="prefactv_summary_step_length">
+    	    						Forward/Backward(minutes)</string>
+
+   	<!-- dlg: ACTVMAIN_LV -->
+   		<string name="dlg_actvmain_lv_delete">Delete folder</string>
+   		<string name="dlg_actvmain_lv_delete_confirm_message">
+   		    						Delete folder?</string>
+
+	<!-- dlg: create dir -->
+   		<string name="dlg_create_dir_title">Create dir</string>
+   		<string name="dlg_create_dir_message">
+   		    		Available chars: a-zA-Z_\nNo \"__\"(double underbar)</string>
+   			
+	<!-- dlg: conf move files -->
+   		<string name="dlg_alactv_move_files_confirm_message">Move ?</string>
+    		
+</resources>
+

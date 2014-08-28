@@ -1,0 +1,158 @@
+package ta2.adapters;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ta2.items.ListItem;
+import ta2.main.R;
+
+
+import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.provider.MediaStore;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.ArrayAdapter;
+import android.widget.CheckBox;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class Adp_ListItems extends ArrayAdapter<ListItem> {
+
+	/*--------------------------------------------------------
+	 * Class fields
+		--------------------------------------------------------*/
+	// Context
+	Context con;
+
+	// Inflater
+	LayoutInflater inflater;
+
+	
+	/*--------------------------------------------------------
+	 * Constructor
+		--------------------------------------------------------*/
+	public Adp_ListItems(Context con, int resourceId, List<ListItem> items) {
+		// Super
+		super(con, resourceId, items);
+
+		// Context
+		this.con = con;
+
+		// Inflater
+		inflater = (LayoutInflater) con.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		
+
+	}//public TIListAdapter(Context con, int resourceId, List<TI> items)
+
+	/*--------------------------------------------------------
+	 * Methods
+		--------------------------------------------------------*/
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+    	/*----------------------------
+		 * Steps
+		 * 0. View
+		 * 1. Set layout
+		 * 2. Get view
+		 * 3. Get item
+		 * 4. Get bitmap
+		 * 5. Get memo, or, file name
+			----------------------------*/
+    	/*----------------------------
+		 * 0. View
+			----------------------------*/
+    	View v = null;
+
+    	if (convertView != null) {
+
+    		v = convertView;
+    		
+		} else {//if (convertView != null)
+
+			v = inflater.inflate(R.layout.list_row_simple_iv_1, null);
+
+		}//if (convertView != null)
+		
+    	////////////////////////////////
+
+		// get: item
+
+		////////////////////////////////
+    	ListItem li = getItem(position);
+    	
+    	////////////////////////////////
+
+		// setup: view
+
+		////////////////////////////////
+		_Setup_Views(v, li);
+		
+//    	////////////////////////////////
+//
+//		// view: text
+//
+//		////////////////////////////////
+//    	TextView tv = (TextView) v.findViewById(R.id.list_row_slimple_iv_1_tv);
+//    	
+//    	tv.setText(li.getText());
+//		
+//    	////////////////////////////////
+//    	
+//    	// view: icon
+//    	
+//    	////////////////////////////////
+//    	ImageView iv = (ImageView) v.findViewById(R.id.list_row_slimple_iv_1_iv);
+//    	
+//    	iv.setBackgroundResource(li.getIconID());
+    	
+//    	return null;
+		return v;
+    }//public View getView(int position, View convertView, ViewGroup parent)
+
+	private void 
+	_Setup_Views(View v, ListItem li) {
+		// TODO Auto-generated method stub
+		
+		////////////////////////////////
+		
+		// view: text
+		
+		////////////////////////////////
+		TextView tv = (TextView) v.findViewById(R.id.list_row_slimple_iv_1_tv);
+		
+		tv.setText(li.getText());
+		
+//		li.getText().length()
+		
+		LinearLayout.LayoutParams params =
+				new LinearLayout.LayoutParams(
+								li.getText().length() * 60,
+//								200,
+//								LayoutParams.WRAP_CONTENT,
+								LayoutParams.WRAP_CONTENT);
+		
+		tv.setLayoutParams(params);
+		
+		////////////////////////////////
+		
+		// view: icon
+		
+		////////////////////////////////
+		ImageView iv = (ImageView) v.findViewById(R.id.list_row_slimple_iv_1_iv);
+		
+		iv.setBackgroundResource(li.getIconID());
+		
+	}
+
+}//public class TIListAdapter extends ArrayAdapter<TI>

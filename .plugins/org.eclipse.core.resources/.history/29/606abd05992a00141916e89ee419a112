@@ -1,0 +1,109 @@
+package ta2.listeners;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import ta2.utils.CONS;
+import ta2.utils.Tags;
+
+import android.app.Activity;
+import android.app.Dialog;
+import android.content.Context;
+import android.os.Vibrator;
+import android.util.Log;
+import android.view.Gravity;
+import android.view.View;
+import android.view.ViewGroup.LayoutParams;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.AdapterView.OnItemLongClickListener;
+import android.widget.Toast;
+
+// ListOnItemLongClickListener
+public class LOI_CL implements OnItemClickListener {
+
+	Activity actv;
+
+	Dialog dlg1;
+	Dialog dlg2; 
+	
+	Vibrator vib;
+	
+	public LOI_CL(Activity actv) {
+		// TODO Auto-generated constructor stub
+		this.actv = actv;
+		
+		CONS.Admin.vib = (Vibrator) actv.getSystemService(Context.VIBRATOR_SERVICE);
+		
+	}
+
+	public boolean
+	onItemLongClick
+	(AdapterView<?> parent, View v, int position, long id) {
+		
+		Tags.ListTags tag = null;
+		
+			
+		tag = (Tags.ListTags) parent.getTag();
+		
+		CONS.Admin.vib.vibrate(CONS.Admin.vibLength_click);
+//		vib.vibrate(CONS.Admin.vibLength_click);
+		
+
+		
+		switch (tag) {
+			
+//		case actv_main_lv://----------------------------------------------------
+//
+//			String item = (String) parent.getItemAtPosition(position);
+//			
+//			case_ACTV_MAIN_LV(item);
+//			
+//			break;// case actv_bm_lv
+			
+			
+		default:
+			break;
+		
+		}//switch (tag)
+		
+		return true;
+		
+	}//onItemLongClick (AdapterView<?> parent, View v, int position, long id)
+
+	@Override
+	public void onItemClick
+	(AdapterView<?> parent, View v, int position, long id) {
+		// TODO Auto-generated method stub
+		Tags.ListTags tag = null;
+		
+		
+		tag = (Tags.ListTags) parent.getTag();
+		
+		CONS.Admin.vib.vibrate(CONS.Admin.vibLength_click);
+//		vib.vibrate(CONS.Admin.vibLength_click);
+		
+
+		
+		switch (tag) {
+			
+//		case actv_main_lv://----------------------------------------------------
+//
+//			String item = (String) parent.getItemAtPosition(position);
+//			
+//			case_ACTV_MAIN_LV(item);
+//			
+//			break;// case actv_bm_lv
+			
+			
+		default:
+			break;
+		
+		}//switch (tag)		
+		
+	}
+
+}//public class ListOnItemLongClickListener implements OnItemLongClickListener
