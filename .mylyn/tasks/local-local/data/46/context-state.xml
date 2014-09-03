@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/xml/pref_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/values/array.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/values/strings.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/PrefActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4359" selectionTopPixel="3915"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/values/styles.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/layout/dlg_tmpl_cancel_lv.xml"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

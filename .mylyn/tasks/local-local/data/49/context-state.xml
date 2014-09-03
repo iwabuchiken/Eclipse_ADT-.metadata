@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/items/Pref_Dropdown.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2101" selectionTopPixel="1317"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/items/SeekBarPreference.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3553" selectionTopPixel="2646"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/main/TabActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="23452" selectionTopPixel="16791"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ShowListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1637" selectionTopPixel="1248"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

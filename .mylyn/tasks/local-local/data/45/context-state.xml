@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="129" selectionOffset="6070" selectionTopPixel="5200"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ShowListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14198" selectionTopPixel="15019"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/menu/menu_actv_main.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/xml/pref_main.xml"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
