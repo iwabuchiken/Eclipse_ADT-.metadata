@@ -4,7 +4,7 @@
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods_dlg.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="27" selectionOffset="42879" selectionTopPixel="39338"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="42973" selectionTopPixel="40228"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DOI_CL.java"/>
@@ -16,11 +16,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="79668" selectionTopPixel="86779"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="80448" selectionTopPixel="89180"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/DBUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="83757" selectionTopPixel="89535"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="82561" selectionTopPixel="88816"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
