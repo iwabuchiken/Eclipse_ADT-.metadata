@@ -3,11 +3,20 @@
 <org.eclipse.mylyn.context.ui.editors>
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/utils/Methods_dlg.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="61360" selectionTopPixel="56186"/>
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2209" selectionTopPixel="1664"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/values/strings.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="2149" selectionTopPixel="884"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="87542" selectionTopPixel="81718"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="849" selectionOffset="37630" selectionTopPixel="38948"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
