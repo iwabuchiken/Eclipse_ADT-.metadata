@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/main/TabActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="34587" selectionTopPixel="27820"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="90713" selectionTopPixel="79213"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/values/strings.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1671" selectionOffset="3375" selectionTopPixel="3536"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/main/TabActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="34461" selectionTopPixel="27950"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/menu/actv_tab_2.xml"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
