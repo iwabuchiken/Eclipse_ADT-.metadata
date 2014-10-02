@@ -10692,3 +10692,1755 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2014-09-30 15:44:58.659
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-10-02 12:43:14.432 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-10-02 12:44:08.069
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-10-02 12:44:08.069
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.osgi 2 0 2014-10-02 12:44:09.016
+!MESSAGE While loading class "com.android.ide.eclipse.adt.ToolsLocator", thread "Thread[Worker-1,5,main]" timed out waiting (5024ms) for thread "Thread[org.eclipse.jdt.internal.ui.text.JavaReconciler,1,main]" to finish starting bundle "com.android.ide.eclipse.adt_23.0.2.1259578 [2]". To avoid deadlock, thread "Thread[Worker-1,5,main]" is proceeding but "com.android.ide.eclipse.adt.ToolsLocator" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.android.ide.eclipse.adt_23.0.2.1259578.jar" by thread "org.eclipse.jdt.internal.ui.text.JavaReconciler".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.instantiateToolsLocators(DdmsPlugin.java:376)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$4(DdmsPlugin.java:367)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$5.run(DdmsPlugin.java:304)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 24 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.instantiateToolsLocators(DdmsPlugin.java:376)
+	at com.android.ide.eclipse.ddms.DdmsPlugin.access$4(DdmsPlugin.java:367)
+	at com.android.ide.eclipse.ddms.DdmsPlugin$5.run(DdmsPlugin.java:304)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-02 12:44:14.945
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\iwabuchik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2014-10-02 12:47:03.921
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:54:03.440
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:54:22.629
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-10-02 12:54:45.022
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Text.sendKeyEvent(Text.java:1704)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Text.WM_CHAR(Text.java:2584)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2570)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.copy
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 49 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2014-10-02 12:54:50.497
+!MESSAGE 
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:63)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:231)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:212)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:131)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:171)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:277)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:496)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:547)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:368)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.access$0(KeyBindingDispatcher.java:314)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:83)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1262)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1052)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1077)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1062)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1104)
+	at org.eclipse.swt.widgets.Text.sendKeyEvent(Text.java:1704)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1100)
+	at org.eclipse.swt.widgets.Widget.wmChar(Widget.java:1521)
+	at org.eclipse.swt.widgets.Control.WM_CHAR(Control.java:4640)
+	at org.eclipse.swt.widgets.Text.WM_CHAR(Text.java:2584)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4528)
+	at org.eclipse.swt.widgets.Text.windowProc(Text.java:2570)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4976)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2546)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3756)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: org.eclipse.core.commands.NotHandledException: There is no handler to execute for command org.eclipse.ui.edit.paste
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:56)
+	... 49 more
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:55:14.100
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:55:17.203
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:55:38.302
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 12:55:44.125
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/imageButton1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.401
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.676
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.682
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.686
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.689
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.694
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.710
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.819
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.873
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.879
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.886
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:30:56.890
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.533
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.543
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.548
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.551
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.554
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.558
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.561
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.578
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.587
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.594
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.601
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.604
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.668
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.673
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.678
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.680
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.683
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.687
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.690
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.705
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.711
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.718
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.724
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.727
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.869
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.874
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.879
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.881
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.884
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.887
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.889
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.902
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.908
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.915
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.921
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:41.924
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.263
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.271
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.277
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.280
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.282
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.286
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.289
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.304
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.313
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.322
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.331
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.335
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.415
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.420
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.427
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.431
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.433
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.436
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.439
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.456
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.463
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.471
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.479
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.482
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.581
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.585
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.589
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.592
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.594
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.597
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.600
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.613
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_backward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.618
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.625
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.635
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:43.638
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.866
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.933
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.939
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.943
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.946
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.949
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.953
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.978
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.987
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.996
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:52.999
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.352
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.357
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.361
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.364
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.366
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.369
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.371
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.393
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.402
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.407
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.410
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.495
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.499
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.505
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.508
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.511
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.515
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.518
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.539
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.546
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.554
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.557
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.673
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.677
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.681
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.683
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.686
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.688
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.691
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.705
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.710
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.716
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.719
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_forward
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.884
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.889
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.895
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.898
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.901
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.905
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.909
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.931
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.940
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:56.950
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.425
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.431
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.437
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.441
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.444
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.447
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.449
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.463
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.471
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.478
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.546
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.549
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.553
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.556
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.558
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.560
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.563
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.577
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.584
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.591
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.686
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.690
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.693
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.695
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.697
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.700
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.702
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.715
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.720
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:31:59.724
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.838
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.843
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.848
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.850
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.853
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.856
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.858
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.873
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.880
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.887
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.942
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.945
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.950
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.952
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.954
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.957
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.959
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.973
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.978
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:00.984
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.073
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.078
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.084
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.086
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.088
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.091
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.094
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.107
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.111
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.116
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.206
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.211
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.216
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.219
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_tv_bm_label
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.221
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.225
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.228
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.235
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.241
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:01.248
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.686
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.691
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.695
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.699
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.702
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.709
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.722
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:03.728
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.363
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.367
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.430
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.433
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.441
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.447
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:07.453
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.419
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.422
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.424
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.426
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.431
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.434
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.438
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.495
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.499
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.501
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.503
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.508
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.512
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.516
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.607
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.610
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.613
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.615
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.619
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.623
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:08.628
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.499
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.502
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.505
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.514
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.523
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:09.528
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.676
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.678
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.681
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.685
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.689
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.693
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.745
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.748
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.750
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.754
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.758
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.762
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.864
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_tv_no_data
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.866
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.868
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.873
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.877
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:10.880
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:12.300
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_add_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:12.303
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_see_bm
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:12.310
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:12.317
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:12.323
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:16.047
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:16.054
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:16.059
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.377
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.383
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.387
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.434
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.442
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.447
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.559
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.565
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:28.571
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:30.675
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:30.679
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:30.682
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:31.426
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:31.432
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:31.437
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.421
+!MESSAGE actv_play.xml: Couldn't resolve resource @id/actv_play_bt_rec
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.426
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.428
+!MESSAGE actv_play.xml: Couldn't resolve resource @id/actv_play_bt_rec
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.432
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.438
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.818
+!MESSAGE actv_play.xml: Couldn't resolve resource @id/actv_play_bt_rec
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.822
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.824
+!MESSAGE actv_play.xml: Couldn't resolve resource @id/actv_play_bt_rec
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.829
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:41.833
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:42.186
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:42.190
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:42.194
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.168
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.172
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.176
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.222
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.226
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.230
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.317
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.321
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:45.324
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.676
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.680
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.685
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.738
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.743
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.748
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.831
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.834
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:48.838
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.785
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.788
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.792
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.833
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.837
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.840
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.921
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.925
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:32:54.929
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:17.564
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:17.568
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:17.572
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.475
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.482
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.487
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.531
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.534
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.538
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.647
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.650
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:33:22.653
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+!SESSION 2014-10-02 13:33:31.239 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-10-02 13:33:35.568
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-10-02 13:34:13.082
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-10-02 13:34:13.082
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-02 13:34:19.892
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\iwabuchik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2014-10-02 13:35:26.500
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-10-02 13:38:16.790 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-10-02 13:38:33.977
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-10-02 13:38:33.977
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-02 13:38:40.322
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\iwabuchik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:40:22.649
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_play
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:40:22.671
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/actv_play_bt_stop
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:40:22.692
+!MESSAGE actv_play.xml: Couldn't resolve resource @string/generic_bt_back
+
+!ENTRY org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7decd608,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6b627113,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@47d7e7ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5f0340e0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2fb3aa3b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3761d803,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3c6d1ff4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@57b8b8f2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@204ceb2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@454c8132,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@19e322f7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6573cc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@f0c9368,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@56714ff2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2a19890,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3f271749,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1f69da03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@45f4447b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5e680b11,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7fcf15b2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@aeb983,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6d76837c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.205
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4f1547ce,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7f3858b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:38.206
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7e1d4df1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4a65a34b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2014-10-02 13:43:51.152
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:51.152
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3aeca2d4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@395c88b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:51.152
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5b62a85,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7aa184b0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:51.152
+!MESSAGE A conflict occurred for ALT+SHIFT+U:
+Binding(ALT+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.remove.occurrence.annotations,Remove Occurrence Annotations,
+		Removes the occurrence annotations from the current editor,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@20e7db6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.markTaskUnread,Mark Task Unread,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@51634803,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:43:51.152
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@55f38c8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@627f62ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+
+!ENTRY org.eclipse.jface 2 0 2014-10-02 13:44:25.605
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-02 13:44:25.605
+!MESSAGE A conflict occurred for CTRL+SHIFT+M:
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.import,Add Import,
+		Create import statement on selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7173713,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.maximizePart,Maximize Part,
+		Maximize Part,
+		Category(org.eclipse.mylyn.tasks.ui.category.editor,Task Editor,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@520c408,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.editors.task,,,system)
+
+!ENTRY org.eclipse.ui 2 2 2014-10-02 13:44:28.731
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:47:47.404
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/actv_main_ib_voice
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 13:47:47.954
+!MESSAGE actv_main.xml: Couldn't resolve resource @id/actv_main_ib_voice
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-02 15:13:25.113
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/MediaRecorderActivity/res' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at com.android.ide.eclipse.adt.internal.sdk.Sdk$7.run(Sdk.java:1485)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2014-10-02 15:13:25.288
+!MESSAGE Resource '/MediaRecorderActivity/res' does not exist.
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:06:20.631
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:06:20.701
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:06:21.743
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:06:21.796
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:08:24.448
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:08:24.452
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/editText1
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:14:19.144
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/actv_rec_et
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:14:19.338
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/actv_rec_et
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:14:20.613
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/actv_rec_et
+
+!ENTRY com.android.ide.eclipse.adt 2 0 2014-10-02 16:14:20.615
+!MESSAGE actv_rec.xml: Couldn't resolve resource @id/actv_rec_et
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-02 16:34:19.016
+!MESSAGE Unable to read C:\WORKS\WS\Eclipse_ADT\TA2\AndroidManifest.xml: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parse(AndroidManifestHelper.java:102)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseForData(AndroidManifestHelper.java:177)
+	at com.android.ide.eclipse.adt.internal.project.ProjectHelper.findAndroidProjectByAppName(ProjectHelper.java:606)
+	at com.android.ide.eclipse.adt.DebuggerConnector$WorkspaceAppCache.isWorkspaceApp(DebuggerConnector.java:96)
+	at com.android.ide.eclipse.adt.DebuggerConnector.isWorkspaceApp(DebuggerConnector.java:60)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.isImportantMessage(LogCatMonitor.java:179)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.checkMessages(LogCatMonitor.java:157)
+	at com.android.ide.eclipse.ddms.LogCatMonitor.access$4(LogCatMonitor.java:148)
+	at com.android.ide.eclipse.ddms.LogCatMonitor$3.bufferChanged(LogCatMonitor.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.sendLogChangedEvent(LogCatReceiver.java:140)
+	at com.android.ddmuilib.logcat.LogCatReceiver.log(LogCatReceiver.java:107)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.notifyListeners(LogCatReceiverTask.java:129)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.access$300(LogCatReceiverTask.java:36)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processLogLines(LogCatReceiverTask.java:114)
+	at com.android.ddmlib.logcat.LogCatReceiverTask$LogCatOutputReceiver.processNewLines(LogCatReceiverTask.java:107)
+	at com.android.ddmlib.MultiLineReceiver.addOutput(MultiLineReceiver.java:94)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:441)
+	at com.android.ddmlib.AdbHelper.executeRemoteCommand(AdbHelper.java:347)
+	at com.android.ddmlib.Device.executeShellCommand(Device.java:618)
+	at com.android.ddmlib.logcat.LogCatReceiverTask.run(LogCatReceiverTask.java:75)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 23 more
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-02 20:36:56.011
+!MESSAGE File is Out of sync
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:467)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 15 more
