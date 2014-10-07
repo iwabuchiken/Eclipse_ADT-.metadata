@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContextState>
 <org.eclipse.mylyn.context.ui.editors>
-<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0"/>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DB_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4385" selectionTopPixel="4104"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="124199" selectionTopPixel="142071"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ShowListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="13343" selectionTopPixel="4186"/>
+</editor>
+</MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
 </ContextState>
