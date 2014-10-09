@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="32" selectionOffset="6769" selectionTopPixel="6032"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="67919" selectionTopPixel="65693"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DOI_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8584" selectionTopPixel="8112"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="130477" selectionTopPixel="143589"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="76444" selectionTopPixel="84118"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ImageActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8903" selectionTopPixel="8586"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/PhotoActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="550" selectionOffset="7707" selectionTopPixel="7713"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/PlayActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="713" selectionOffset="9135" selectionTopPixel="9299"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/main/TNActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="141" selectionOffset="22248" selectionTopPixel="23409"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DB_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="13118" selectionTopPixel="13884"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

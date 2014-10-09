@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/adapters/Adp_TIList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7659" selectionTopPixel="7020"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/PhotoActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1378" selectionTopPixel="1118"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="10" selectionOffset="19520" selectionTopPixel="21681"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="17" selectionOffset="74980" selectionTopPixel="85176"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ImageActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11679" selectionTopPixel="13122"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="96150" selectionTopPixel="96486"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
