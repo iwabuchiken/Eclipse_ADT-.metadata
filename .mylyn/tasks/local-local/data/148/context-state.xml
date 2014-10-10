@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/Methods_dlg.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="28379" selectionTopPixel="28366"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DOI_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="21480" selectionTopPixel="21268"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DB_OTL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4852" selectionTopPixel="4698"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DB_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12508" selectionTopPixel="13650"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/DBUtils.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="18" selectionOffset="26954" selectionTopPixel="26260"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/adapters/ItemListAdapter2.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4268" selectionTopPixel="2970"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl/main/TabActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="16223" selectionTopPixel="11880"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/adapters/ToBuyListAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3793" selectionTopPixel="2943"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/values/strings.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/list/LOI_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8900" selectionTopPixel="6554"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/Methods_sl.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="56580" selectionTopPixel="54496"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

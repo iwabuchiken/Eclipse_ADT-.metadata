@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/PhotoActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="191" selectionOffset="5958" selectionTopPixel="5746"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ShowListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="14" selectionOffset="4914" selectionTopPixel="4498"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="16" selectionOffset="19856" selectionTopPixel="641"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/adapters/Adp_MemoList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="229" selectionOffset="4665" selectionTopPixel="3874"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/adapters/Adp_TIList.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2815" selectionTopPixel="1414"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/main/TNActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11395" selectionTopPixel="10294"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
