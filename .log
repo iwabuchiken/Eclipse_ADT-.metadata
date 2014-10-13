@@ -5986,3 +5986,1628 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.ui 2 2 2014-10-12 12:07:31.409
 !MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+!SESSION 2014-10-13 11:17:56.445 -----------------------------------------------
+eclipse.buildId=M20130204-1200
+java.version=1.7.0_67
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ja_JP
+Framework arguments:  -product com.android.ide.eclipse.adt.package.adtproduct
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product com.android.ide.eclipse.adt.package.adtproduct
+
+!ENTRY org.eclipse.osgi 2 0 2014-10-13 11:18:51.541
+!MESSAGE While loading class "com.android.ide.eclipse.adt.internal.resources.manager.GlobalProjectMonitor$DeltaVisitor", thread "Thread[Worker-3,5,main]" timed out waiting (5006ms) for thread "Thread[main,6,main]" to finish starting bundle "com.android.ide.eclipse.adt_23.0.2.1259578 [2]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "com.android.ide.eclipse.adt.internal.resources.manager.GlobalProjectMonitor$DeltaVisitor" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.android.ide.eclipse.adt_23.0.2.1259578.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.resources.manager.GlobalProjectMonitor$1.resourceChanged(GlobalProjectMonitor.java:535)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:742)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:212)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 24 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.android.ide.eclipse.adt.internal.resources.manager.GlobalProjectMonitor$1.resourceChanged(GlobalProjectMonitor.java:535)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:149)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:395)
+	at org.eclipse.core.internal.resources.Workspace.endOperation(Workspace.java:1530)
+	at org.eclipse.core.internal.resources.Resource.createMarker(Resource.java:742)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:212)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.osgi 2 0 2014-10-13 11:18:56.784
+!MESSAGE While loading class "com.android.ide.eclipse.adt.internal.project.LibraryClasspathContainerInitializer", thread "Thread[Worker-3,5,main]" timed out waiting (5000ms) for thread "Thread[main,6,main]" to finish starting bundle "com.android.ide.eclipse.adt_23.0.2.1259578 [2]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "com.android.ide.eclipse.adt.internal.project.LibraryClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.android.ide.eclipse.adt_23.0.2.1259578.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3175)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3151)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2824)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1878)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3128)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2691)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2855)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1960)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:417)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2016)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:267)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:390)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1698)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:220)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 40 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3175)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3151)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2824)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1878)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3128)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2691)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2855)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1960)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:417)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2016)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:267)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:390)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1698)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:220)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.osgi 2 0 2014-10-13 11:19:01.790
+!MESSAGE While loading class "com.android.ide.eclipse.adt.internal.project.LibraryClasspathContainerInitializer", thread "Thread[Worker-3,5,main]" timed out waiting (5001ms) for thread "Thread[main,6,main]" to finish starting bundle "com.android.ide.eclipse.adt_23.0.2.1259578 [2]". To avoid deadlock, thread "Thread[Worker-3,5,main]" is proceeding but "com.android.ide.eclipse.adt.internal.project.LibraryClasspathContainerInitializer" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/com.android.ide.eclipse.adt_23.0.2.1259578.jar" by thread "main".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3175)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3151)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2824)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1878)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3128)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2691)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2855)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1960)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:417)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2016)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:267)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:390)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1698)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:220)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 40 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1088)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:298)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:440)
+	at org.eclipse.osgi.internal.loader.BundleLoader.setLazyTrigger(BundleLoader.java:263)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:107)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:469)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:216)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:395)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:464)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:421)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:412)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:107)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.osgi.internal.loader.BundleLoader.loadClass(BundleLoader.java:340)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.loadClass(BundleHost.java:229)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.loadClass(AbstractBundle.java:1212)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:174)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.jdt.core.JavaCore.computeClasspathContainerInitializer(JavaCore.java:3175)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainerInitializer(JavaCore.java:3151)
+	at org.eclipse.jdt.internal.core.JavaModelManager.initializeContainer(JavaModelManager.java:2824)
+	at org.eclipse.jdt.internal.core.JavaModelManager.getClasspathContainer(JavaModelManager.java:1878)
+	at org.eclipse.jdt.core.JavaCore.getClasspathContainer(JavaCore.java:3128)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2691)
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2855)
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1960)
+	at org.eclipse.jdt.internal.core.ExternalFoldersManager.refreshReferences(ExternalFoldersManager.java:417)
+	at org.eclipse.jdt.internal.core.DeltaProcessor.resourceChanged(DeltaProcessor.java:2016)
+	at org.eclipse.jdt.internal.core.DeltaProcessingState.resourceChanged(DeltaProcessingState.java:470)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:291)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:285)
+	at org.eclipse.core.internal.events.NotificationManager.handleEvent(NotificationManager.java:267)
+	at org.eclipse.core.internal.resources.Workspace.broadcastEvent(Workspace.java:390)
+	at org.eclipse.core.internal.resources.Resource.refreshLocal(Resource.java:1698)
+	at com.android.ide.eclipse.adt.internal.project.BaseProjectHelper.markProject(BaseProjectHelper.java:220)
+	at com.android.ide.eclipse.adt.internal.project.BaseClasspathContainerInitializer$1.run(BaseClasspathContainerInitializer.java:60)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-10-13 11:19:12.204
+!MESSAGE Unexpected error while loading repository template extensions
+!SUBENTRY 1 org.eclipse.mylyn.tasks.core 4 0 2014-10-13 11:19:12.204
+!MESSAGE Could not load repository template extension contributed by 'org.eclipse.mylyn.bugzilla.ide' with connectorKind 'bugzilla'
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-10-13 11:19:14.944
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\iwabuchik'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2014-10-13 11:25:15.415
+!MESSAGE Invalid property category path: ValidationPropertiesPage (bundle: org.eclipse.wst.xml.ui, propertyPage: org.eclipse.wst.xml.ui.propertyPage.project.validation)
+
+!ENTRY org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE A conflict occurred for ALT+ARROW_DOWN:
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineDown,Move Lines Down,
+		Moves the selected lines down,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3bc5c58d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToNextUnread,Go To Next Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@44d4bd93,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_UP:
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.enclosing,Select Enclosing Element,
+		Expand selection to include enclosing element,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2ff653ab,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.markTaskReadGoToPreviousUnread,Mark Task Read and Go To Previous Unread Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@352ccaa3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE A conflict occurred for INSERT:
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.toggleOverwrite,Toggle Overwrite,
+		Toggle overwrite mode,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@fabae9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(INSERT,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.new.local.task,New Local Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@50544a26,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE A conflict occurred for ALT+ARROW_UP:
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.moveLineUp,Move Lines Up,
+		Moves the selected lines up,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4dd02dfd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(ALT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.goToPreviousUnread,Go To Previous Unread Task,
+		,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@25807f6e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:25:29.162
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_DOWN:
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.last,Restore Last Selection,
+		Restore last selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@30e5af67,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.markTaskReadGoToNextUnread,Mark Task Read and Go To Next Unread Task,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@1e7b64f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.views.tasks,,,system)
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2014-10-13 11:31:56.854
+!MESSAGE Problems encounted during importing
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-26_edit-title_gridview_v-2.0_import-patterns ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-26_edit-title_gridview_v-3.0_set-gridview ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-27_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-27_admin-patterns_v-1.1_delete-listviews-2,3 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-27_admin-patterns_v-2.1_register-pattern ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-29_LAB_wave_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-28_ALActv_list-navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-20_move-files_v-6.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.854
+!MESSAGE Task D-20_move-files_v-6.2_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-20_move-files_v-6.3_2nd-order-dir ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-30_search_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-31_FIX-1_delete-audio_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-29_LAB_wave_v-1.2_dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-29_LAB_wave_v-1.3_"create wav file" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-29_LAB_wave_v-1.4_canvas ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-29_LAB_wave_v-2.0_draw-lines ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-29_LAB_wave_v-2.2_2-channels ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-2_setup_TabActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.1b ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.2_backup-db ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.4_create/drop-tables ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.5_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.5.2_build-SI-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-1.6_modify-adapter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-2.0_import-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-2.1_build-list-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-3_tabs_v-2.2_import-genres ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.2_MI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.855
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.3_memu-item-"item" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-2.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-2.1_validation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4/SEG-1_add-number-box_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-3.0_to-buy-lit_add-num ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-3.1_to-buy-lit-into-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-4.0_save-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-4.1_modify-isInDB ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-5_load-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-6_delete-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-4_save-to-buy-list_v-6.0_save-anyway ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-6/SEG-1_FIX_update-ps_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.2 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-3_tabs_v-4.0_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-8_search-items_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-8_search-items_v-2.0_coding ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-8_search-items_v-2.1_set-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-10_edit-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-10_edit-item_v-1.1_edit ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.856
+!MESSAGE Task D-11_delete-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-11_delete-item_v-1.1_delete-from-tobuy-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-12_register-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-12_register-item_v-1.1_save-item ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-21_add-memo-to-all-images_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-19_LogActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-19_LogActv_v-2.0_show-files-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-19_LogActv_v-3.0_ShowLogActv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-19_LogActv_v-3.1_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-17/SEG-2_FIX_delete-file_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-17/SEG-1_add_last-viewed-at_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-17_post-image-data_v-3.1.2_post-multiple-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-17_post-image-data_v-3.1.3_post-multiple-data-HTTP ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-19_LogActv_v-4.0_log-file-size ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0_build-views ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.1_update-patterns-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.2_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0.1_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-23_FIXES_v-1.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-20_hist-actv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-24_auto-backup_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-24_auto-backup_v-1.1_table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.857
+!MESSAGE Task D-24_auto-backup_v-1.2_save-date ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-23_FIXES_v-2.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-25_content-provider_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-25_content-provider_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-1.1_image-buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2_create-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3/SEG-1_BGM_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2.1_drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.3_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-3.0_GUI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-4.0_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-4.1_":,#" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-5.x_set-listeners ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-5.2_all-clear ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-6.0_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-6.1_create/drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-6.2_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-3_setup_MemoActv_v-7.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-4_ShowListActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.858
+!MESSAGE Task D-4_ShowListActv_v-2.0_build-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-4_ShowListActv_v-3.0_filter-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-4_ShowListActv_v-3.5_multiple-keywords ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-5_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-5_admin-patterns_v-2.0_delete ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-6_admin-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-7_showlist_navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-8_date-label_change-color_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-2.0_ListPreference ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-2.1_second-attempt ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-3.0_dropdown-pref ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-3.1_set-list-in-spinner ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-3.2_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-9_memo-list-size_v-3.2a_no-selection ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-10_memo-editable_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.859
+!MESSAGE Task D-12_upload-db_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-11_keywords-used_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-11_keywords-used_v-2.0_showlist ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-3_setup_MemoActv_v-8.0_selection-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-5_admin-patterns_v-4.0_store-filter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-3_setup_MemoActv_v-9.0_change-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-13_opt-menu_clear-view_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-14_FIX-1_sqlite-chars_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-15_MODIFY-1_parens_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-16_auto-bk_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-1.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-2.0_record ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.0_play-voice-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.1_rec-with-memos ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.3_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.3.2_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.3.3_FIX_stop-play ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.2.1_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.3.4_seekbar ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.3.5_play-from-the-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-3.4.0_play-actv_buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-4.0_play-actv_edit-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.860
+!MESSAGE Task D-17_voice-memo_v-4.2_edit-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-17_voice-memo_v-4.3_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-19_filter_drill-down_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-4_ShowListActv_v-4.0_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-4_ShowListActv_v-4.1_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_image-memo_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_image-memo_v-2.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_image-memo_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18/SEG-1_show-image_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18/SEG-1_show-image_v-2.0_option ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18/SEG-1_show-image_v-3.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18/SEG-1_show-image_v-3.1_update-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.3_conditions ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.4_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.5_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.6_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-2.6_button-"back" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-3.0_update-db-ifm11 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:31:56.861
+!MESSAGE Task D-18_show-image_v-3.1_update-in-ImageActv ignored, already exists in Task List
+
+!ENTRY org.eclipse.mylyn.tasks.core 4 0 2014-10-13 11:33:39.998
+!MESSAGE Problems encounted during importing
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 4 0 2014-10-13 11:33:39.998
+!MESSAGE Problems encountered reading import file
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to load Task List
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.openTaskList(TaskListExternalizer.java:330)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.readTaskList(TaskListExternalizer.java:217)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.ImportAction.importElements(ImportAction.java:96)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.ImportAction.run(ImportAction.java:76)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+Caused by: org.eclipse.core.runtime.CoreException: Task list file contains no entry for the task list
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.openTaskList(TaskListExternalizer.java:319)
+	... 33 more
+!SUBENTRY 2 org.eclipse.mylyn.tasks.core 4 0 2014-10-13 11:33:39.999
+!MESSAGE Failed to load Task List
+!STACK 1
+org.eclipse.core.runtime.CoreException: Task list file contains no entry for the task list
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.openTaskList(TaskListExternalizer.java:319)
+	at org.eclipse.mylyn.internal.tasks.core.externalization.TaskListExternalizer.readTaskList(TaskListExternalizer.java:217)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.ImportAction.importElements(ImportAction.java:96)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.ImportAction.run(ImportAction.java:76)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1053)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4169)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3758)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1053)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:942)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:86)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:588)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:543)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:353)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SUBENTRY 3 org.eclipse.mylyn.tasks.core 4 0 2014-10-13 11:33:39.999
+!MESSAGE Task list file contains no entry for the task list
+
+!ENTRY org.eclipse.mylyn.tasks.core 2 0 2014-10-13 11:34:24.271
+!MESSAGE Problems encounted during importing
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-4_ShowListActv_v-4.0_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_tabs_v-1.5_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2_create-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-4_ShowListActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_setup_MemoActv_v-6.1_create/drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_setup_MemoActv_v-4.0_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-12_upload-db_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0.1_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-29_LAB_wave_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-20_move-files_v-6.2_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-17_voice-memo_v-3.4.0_play-actv_buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-18/SEG-1_show-image_v-3.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-29_LAB_wave_v-2.0_draw-lines ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-17_voice-memo_v-3.1_rec-with-memos ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-27_admin-patterns_v-2.1_register-pattern ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-4_ShowListActv_v-2.0_build-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-6_delete-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-24_auto-backup_v-1.2_save-date ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_setup_MemoActv_v-5.2_all-clear ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-3_tabs_v-1.5.2_build-SI-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.271
+!MESSAGE Task D-9_memo-list-size_v-3.2a_no-selection ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3/SEG-1_BGM_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-18_show-image_v-3.0_update-db-ifm11 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-5_load-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-20_move-files_v-6.3_2nd-order-dir ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_tabs_v-1.1b ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-4_save-to-buy-list_v-2.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-19_LogActv_v-3.1_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-7_showlist_navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-29_LAB_wave_v-1.4_canvas ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-4_ShowListActv_v-4.1_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_setup_MemoActv_v-5.x_set-listeners ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2.1_drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_setup_MemoActv_v-6.2_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-27_admin-patterns_v-1.1_delete-listviews-2,3 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0_build-views ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-14_FIX-1_sqlite-chars_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-25_content-provider_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-6/SEG-1_FIX_update-ps_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-4_save-to-buy-list_v-2.1_validation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_tabs_v-2.0_import-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-18/SEG-1_show-image_v-3.1_update-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-24_auto-backup_v-1.1_table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-4_ShowListActv_v-3.5_multiple-keywords ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-3_setup_MemoActv_v-7.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.272
+!MESSAGE Task D-18/SEG-1_show-image_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-8_search-items_v-2.0_coding ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-10_memo-editable_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-17_voice-memo_v-3.0_play-voice-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-18/SEG-1_show-image_v-2.0_option ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.3_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_setup_MemoActv_v-1.1_image-buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_tabs_v-1.6_modify-adapter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-5_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-19_filter_drill-down_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-17_voice-memo_v-3.3.5_play-from-the-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_tabs_v-2.2_import-genres ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-4/SEG-1_add-number-box_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-19_LogActv_v-3.0_ShowLogActv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-17_voice-memo_v-2.0_record ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_tabs_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-4_save-to-buy-list_v-6.0_save-anyway ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-13_opt-menu_clear-view_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-19_LogActv_v-2.0_show-files-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-17_voice-memo_v-4.3_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-18_show-image_v-2.6_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-3_setup_MemoActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-26_edit-title_gridview_v-2.0_import-patterns ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.2_MI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-11_keywords-used_v-2.0_showlist ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-17_voice-memo_v-3.3.4_seekbar ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.273
+!MESSAGE Task D-29_LAB_wave_v-1.3_"create wav file" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-26_edit-title_gridview_v-3.0_set-gridview ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-5_admin-patterns_v-2.0_delete ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-3_setup_MemoActv_v-8.0_selection-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-12_register-item_v-1.1_save-item ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-4_ShowListActv_v-3.0_filter-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-2_setup_TabActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.3_memu-item-"item" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-19_LogActv_v-4.0_log-file-size ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-8_search-items_v-2.1_set-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-23_FIXES_v-1.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-17_voice-memo_v-3.3_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-4_save-to-buy-list_v-3.0_to-buy-lit_add-num ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-11_keywords-used_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-18_show-image_v-2.6_button-"back" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-10_edit-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-3_tabs_v-2.1_build-list-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-27_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-17_voice-memo_v-4.2_edit-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-9_memo-list-size_v-2.1_second-attempt ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-5_admin-patterns_v-4.0_store-filter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-6_admin-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-17_voice-memo_v-3.2.1_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-18_show-image_v-3.1_update-in-ImageActv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-4_save-to-buy-list_v-3.1_to-buy-lit-into-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.274
+!MESSAGE Task D-31_FIX-1_delete-audio_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-21_add-memo-to-all-images_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-18_image-memo_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-17_voice-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-3_setup_MemoActv_v-9.0_change-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-3_tabs_v-1.4_create/drop-tables ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-18_show-image_v-2.4_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-3_setup_MemoActv_v-6.0_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-17_voice-memo_v-3.3.3_FIX_stop-play ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-17_post-image-data_v-3.1.2_post-multiple-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-17_voice-memo_v-1.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-11_delete-item_v-1.1_delete-from-tobuy-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-20_hist-actv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-8_search-items_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-4_save-to-buy-list_v-4.1_modify-isInDB ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-25_content-provider_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-3_tabs_v-1.2_backup-db ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.275
+!MESSAGE Task D-9_memo-list-size_v-3.0_dropdown-pref ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-3_setup_MemoActv_v-3.0_GUI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-9_memo-list-size_v-2.0_ListPreference ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-18_image-memo_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-18_show-image_v-2.5_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-8_date-label_change-color_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-23_FIXES_v-2.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-30_search_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-10_edit-item_v-1.1_edit ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-9_memo-list-size_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-28_ALActv_list-navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-11_delete-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-12_register-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-17_post-image-data_v-3.1.3_post-multiple-data-HTTP ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.2 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-17_voice-memo_v-3.3.2_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-29_LAB_wave_v-1.2_dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-4_save-to-buy-list_v-4.0_save-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.1_update-patterns-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-9_memo-list-size_v-3.1_set-list-in-spinner ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-15_MODIFY-1_parens_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-29_LAB_wave_v-2.2_2-channels ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-9_memo-list-size_v-3.2_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-3_tabs_v-4.0_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-3_setup_MemoActv_v-4.1_":,#" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-17_voice-memo_v-4.0_play-actv_edit-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.276
+!MESSAGE Task D-18_image-memo_v-2.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-18_show-image_v-2.3_conditions ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.2_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-24_auto-backup_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-17/SEG-2_FIX_delete-file_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-18_show-image_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-16_auto-bk_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-19_LogActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-17/SEG-1_add_last-viewed-at_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-20_move-files_v-6.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-26_edit-title_gridview_v-2.0_import-patterns ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-26_edit-title_gridview_v-3.0_set-gridview ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-27_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-27_admin-patterns_v-1.1_delete-listviews-2,3 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-27_admin-patterns_v-2.1_register-pattern ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-29_LAB_wave_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-28_ALActv_list-navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-20_move-files_v-6.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-20_move-files_v-6.2_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-20_move-files_v-6.3_2nd-order-dir ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.277
+!MESSAGE Task D-30_search_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-31_FIX-1_delete-audio_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-29_LAB_wave_v-1.2_dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-29_LAB_wave_v-1.3_"create wav file" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-29_LAB_wave_v-1.4_canvas ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-29_LAB_wave_v-2.0_draw-lines ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-29_LAB_wave_v-2.2_2-channels ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-2_setup_TabActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.1b ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.2_backup-db ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.4_create/drop-tables ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.5_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.5.2_build-SI-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-1.6_modify-adapter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-2.0_import-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-2.1_build-list-stores ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-3_tabs_v-2.2_import-genres ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.2_MI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-1.0.3_memu-item-"item" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-2.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-2.1_validation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4/SEG-1_add-number-box_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-3.0_to-buy-lit_add-num ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-3.1_to-buy-lit-into-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-4.0_save-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-4_save-to-buy-list_v-4.1_modify-isInDB ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.278
+!MESSAGE Task D-5_load-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-6_delete-tobuy-list_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-4_save-to-buy-list_v-6.0_save-anyway ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-6/SEG-1_FIX_update-ps_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-3_FIX_TabActv_duplicate-tabs_v-3.2 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-3_tabs_v-4.0_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-8_search-items_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-8_search-items_v-2.0_coding ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-8_search-items_v-2.1_set-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-10_edit-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-10_edit-item_v-1.1_edit ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-11_delete-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-11_delete-item_v-1.1_delete-from-tobuy-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-12_register-item_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-12_register-item_v-1.1_save-item ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-21_add-memo-to-all-images_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-19_LogActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-19_LogActv_v-2.0_show-files-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-19_LogActv_v-3.0_ShowLogActv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-19_LogActv_v-3.1_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-17/SEG-2_FIX_delete-file_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.279
+!MESSAGE Task D-17/SEG-1_add_last-viewed-at_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-17_post-image-data_v-3.1.2_post-multiple-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-17_post-image-data_v-3.1.3_post-multiple-data-HTTP ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-19_LogActv_v-4.0_log-file-size ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0_build-views ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.1_update-patterns-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.2_import-data ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-22_memo-dialog_listviews_v-1.0.1_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-23_FIXES_v-1.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-20_hist-actv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-24_auto-backup_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-24_auto-backup_v-1.1_table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-24_auto-backup_v-1.2_save-date ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-23_FIXES_v-2.0_upload-image ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-25_content-provider_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-25_content-provider_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_v-1.1_image-buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2_create-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3/SEG-1_BGM_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.2.1_drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_import-patterns_v-2.3_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_v-3.0_GUI ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.280
+!MESSAGE Task D-3_setup_MemoActv_v-4.0_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-4.1_":,#" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-5.x_set-listeners ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-5.2_all-clear ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-6.0_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-6.1_create/drop-table ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-6.2_save-text ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-3_setup_MemoActv_v-7.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-4_ShowListActv_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-4_ShowListActv_v-2.0_build-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-4_ShowListActv_v-3.0_filter-memo-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-4_ShowListActv_v-3.5_multiple-keywords ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-5_admin-patterns_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-5_admin-patterns_v-2.0_delete ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-6_admin-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-7_showlist_navigation_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-8_date-label_change-color_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-2.0_ListPreference ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-2.1_second-attempt ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-3.0_dropdown-pref ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-3.1_set-list-in-spinner ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-3.2_set-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-9_memo-list-size_v-3.2a_no-selection ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-10_memo-editable_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-12_upload-db_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-11_keywords-used_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.281
+!MESSAGE Task D-11_keywords-used_v-2.0_showlist ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-3_setup_MemoActv_v-8.0_selection-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-5_admin-patterns_v-4.0_store-filter ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-3_setup_MemoActv_v-9.0_change-listener ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-13_opt-menu_clear-view_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-14_FIX-1_sqlite-chars_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-15_MODIFY-1_parens_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-16_auto-bk_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-1.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-2.0_record ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.0_play-voice-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.1_rec-with-memos ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.3_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.3.2_play-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.3.3_FIX_stop-play ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.2.1_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.3.4_seekbar ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.3.5_play-from-the-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-3.4.0_play-actv_buttons ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-4.0_play-actv_edit-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-4.2_edit-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.282
+!MESSAGE Task D-17_voice-memo_v-4.3_listviews ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-19_filter_drill-down_v-1.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-4_ShowListActv_v-4.0_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-4_ShowListActv_v-4.1_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_image-memo_v-2.0 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_image-memo_v-2.1_start-actv ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_image-memo_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18/SEG-1_show-image_v-1.1 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18/SEG-1_show-image_v-2.0_option ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18/SEG-1_show-image_v-3.0_show-dialog ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18/SEG-1_show-image_v-3.1_update-memo ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_show-image_v-2.2_build-list ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_show-image_v-2.3_conditions ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_show-image_v-2.4_navigation ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_show-image_v-2.5_bg-color ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.283
+!MESSAGE Task D-18_show-image_v-2.6_resume-position ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.284
+!MESSAGE Task D-18_show-image_v-2.6_button-"back" ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.284
+!MESSAGE Task D-18_show-image_v-3.0_update-db-ifm11 ignored, already exists in Task List
+!SUBENTRY 1 org.eclipse.mylyn.tasks.ui 2 0 2014-10-13 11:34:24.284
+!MESSAGE Task D-18_show-image_v-3.1_update-in-ImageActv ignored, already exists in Task List
+
+!ENTRY org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+I:
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.indent,Correct Indentation,
+		Corrects the indentation of the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2a964249,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.active.elements,Format Active Elements,
+		Format active elements,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3d27e959,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+F:
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.format,Format,
+		Format the selected text,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@6ed9dc76,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+F,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.format.document,Format,
+		Format selection,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@22cf08dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_DOWN:
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.next.member,Go to Next Member,
+		Move the caret to the next member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2118ffd5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_DOWN,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.nextSibling,Next Sibling,
+		Go to Next Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3a04999c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_LEFT:
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@704409ec,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_LEFT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.previous,Select Previous Element,
+		Expand selection to include previous sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@13a1c671,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+P:
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.matching.bracket,Go to Matching Bracket,
+		Moves the cursor to the matching bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2e79e89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+P,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.goto.matching.bracket,Matching Bracket,
+		Go to Matching Bracket,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@15c64f22,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+/:
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.block.comment,Add Block Comment,
+		Enclose the selection with a block comment,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@345935dc,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+/,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.add.block.comment,Add Block Comment,
+		Add Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@7a55d547,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+O:
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.show.outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4cdf195d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+O,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.quick_outline,Quick Outline,
+		Show the quick outline for the editor input,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@4afa5018,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+ARROW_UP:
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.goto.previous.member,Go to Previous Member,
+		Move the caret to the previous member of the compilation unit,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@77a07e1c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+ARROW_UP,
+	ParameterizedCommand(Command(org.eclipse.wst.xml.ui.previousSibling,Previous Sibling,
+		Go to Previous Sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@31e5ccbf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.422
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.toggle.comment,Toggle Comment,
+		Toggle comment the selected lines,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@49b79d9f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.toggle.comment,Toggle Comment,
+		Toggle Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3a8e29e3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.457
+!MESSAGE A conflict occurred for ALT+SHIFT+ARROW_RIGHT:
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@35cd5788,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+ARROW_RIGHT,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.structure.select.next,Select Next Element,
+		Expand selection to include next sibling,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@29de5951,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 11:43:15.457
+!MESSAGE A conflict occurred for CTRL+SHIFT+\:
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.remove.block.comment,Remove Block Comment,
+		Remove the block comment enclosing the selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@3c2dbd50,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+\,
+	ParameterizedCommand(Command(org.eclipse.wst.sse.ui.remove.block.comment,Remove Block Comment,
+		Remove Block Comment,
+		Category(org.eclipse.ui.category.edit,Edit,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@5b38adda,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.wst.sse.ui.structuredTextEditorScope,,,system)
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2014-10-13 11:58:49.902
+!MESSAGE File is Out of sync
+!STACK 0
+com.android.io.StreamException: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:55)
+	at com.android.ide.common.xml.AndroidManifestParser.parse(AndroidManifestParser.java:610)
+	at com.android.ide.eclipse.adt.internal.project.AndroidManifestHelper.parseUnchecked(AndroidManifestHelper.java:75)
+	at com.android.ide.eclipse.adt.internal.build.builders.PreCompilerBuilder.build(PreCompilerBuilder.java:467)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:726)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:199)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:239)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:292)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:295)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:351)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:374)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: org.eclipse.core.internal.resources.ResourceException: Resource is out of sync with the file system: '/TA2/AndroidManifest.xml'.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.read(FileSystemResourceManager.java:793)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:289)
+	at org.eclipse.core.internal.resources.File.getContents(File.java:278)
+	at com.android.ide.eclipse.adt.io.IFileWrapper.getContents(IFileWrapper.java:49)
+	... 15 more
+
+!ENTRY org.eclipse.jface 2 0 2014-10-13 12:37:42.348
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 12:37:42.348
+!MESSAGE A conflict occurred for CTRL+SHIFT+M:
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.add.import,Add Import,
+		Create import statement on selection,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@38414c15,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(CTRL+SHIFT+M,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.maximizePart,Maximize Part,
+		Maximize Part,
+		Category(org.eclipse.mylyn.tasks.ui.category.editor,Task Editor,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@46ea138d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.editors.task,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2014-10-13 12:37:42.348
+!MESSAGE A conflict occurred for ALT+SHIFT+U:
+Binding(ALT+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.remove.occurrence.annotations,Remove Occurrence Annotations,
+		Removes the occurrence annotations from the current editor,
+		Category(org.eclipse.jdt.ui.category.source,Source,Java Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@31a9b25a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.javaEditorScope,,,system)
+Binding(ALT+SHIFT+U,
+	ParameterizedCommand(Command(org.eclipse.mylyn.tasks.ui.command.markTaskUnread,Mark Task Unread,
+		,
+		Category(org.eclipse.mylyn.tasks.ui.commands,Task Repositories,null,true),
+		org.eclipse.ui.internal.MakeHandlersGo@367b3c2b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.mylyn.tasks.ui.editors.task,,,system)
