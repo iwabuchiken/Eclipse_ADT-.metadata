@@ -3,8 +3,12 @@
 <org.eclipse.mylyn.context.ui.editors>
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DB_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="44628" selectionTopPixel="53757"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DB_OCL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="13673" selectionTopPixel="11592"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="323" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/listeners/dialog/DialogButtonOnClickListener.java"/>
@@ -17,14 +21,6 @@
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/utils/DBUtils.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7950" selectionTopPixel="1701"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ShoppingList/src/sl/listeners/ButtonOnClickListener.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="42" selectionOffset="7292" selectionTopPixel="6372"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/CONS.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="203" selectionOffset="5965" selectionTopPixel="4914"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/layout/dlg_edit_items.xml"/>
