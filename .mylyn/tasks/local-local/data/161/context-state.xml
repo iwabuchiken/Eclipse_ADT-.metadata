@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/main/ShowLogActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11996" selectionTopPixel="12420"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="2334" selectionOffset="185350" selectionTopPixel="194844"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="145779" selectionTopPixel="7843"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="22944" selectionTopPixel="1577"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="353" selectionOffset="10899" selectionTopPixel="10634"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/adapters/Adp_ShowLogFile_List.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2379" selectionTopPixel="1300"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/layout/list_row_logitem.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/res/layout/list_row_logitem.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/res/values/styles.xml"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/res/values/styles.xml"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
