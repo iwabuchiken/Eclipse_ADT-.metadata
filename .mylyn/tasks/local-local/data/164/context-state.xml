@@ -2,25 +2,32 @@
 <ContextState>
 <org.eclipse.mylyn.context.ui.editors>
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/values/strings.xml"/>
-</editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/Methods_dlg.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="114212" selectionTopPixel="105577"/>
+<editorState selectionHorizontalPixel="0" selectionLength="23" selectionOffset="113563" selectionTopPixel="106262"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DOI_CL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8565" selectionTopPixel="7744"/>
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DB_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11276" selectionTopPixel="12298"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="7" selectionOffset="149606" selectionTopPixel="155324"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="223" selectionOffset="6823" selectionTopPixel="6292"/>
 </editor>
 <editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/layout/dlg_save_pur_history.xml"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/menu/actv_tab_1.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/listeners/dialog/DB_OTL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5148" selectionTopPixel="4995"/>
 </editor>
-<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/res/menu/actv_tab_2.xml"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/DBUtils.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8459" selectionTopPixel="8164"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
