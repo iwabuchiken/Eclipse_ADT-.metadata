@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1290" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/main/LogActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6720" selectionTopPixel="6422"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="31" selectionOffset="25316" selectionTopPixel="24701"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2962" selectionTopPixel="2418"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/SL3/src/sl3/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="1141" selectionOffset="166521" selectionTopPixel="168272"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/views/CanvasView_4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="12257" selectionTopPixel="9428"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
