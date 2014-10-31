@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/view/V_OTL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5797" selectionTopPixel="5893"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/views/CV.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="8422" selectionTopPixel="1647"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/views/CV.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2799" selectionTopPixel="1161"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6076" selectionTopPixel="4525"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/listeners/buttons/BO_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="4366" selectionTopPixel="3796"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="11274" selectionTopPixel="11544"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
