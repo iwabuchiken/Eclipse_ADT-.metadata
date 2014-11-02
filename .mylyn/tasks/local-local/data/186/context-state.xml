@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="17556" selectionTopPixel="16380"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/res/values/strings.xml"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/listeners/dialog/DOI_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="20015" selectionTopPixel="19344"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/tasks/Task_RefreshDB.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="516" selectionTopPixel="150"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="34025" selectionTopPixel="8982"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
