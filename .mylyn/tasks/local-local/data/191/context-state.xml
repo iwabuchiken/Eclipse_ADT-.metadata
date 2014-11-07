@@ -4,7 +4,7 @@
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/main/ImageActv.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="551" selectionOffset="9924" selectionTopPixel="10071"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM10/src/ifm10/main/ImageActv.java"/>
@@ -16,7 +16,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/listeners/button/BO_CL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6794" selectionTopPixel="2964"/>
+<editorState selectionHorizontalPixel="0" selectionLength="19" selectionOffset="4475" selectionTopPixel="3532"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM11/src/ifm11/main/TNActv.java"/>
