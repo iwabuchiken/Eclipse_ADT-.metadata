@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6070" selectionTopPixel="5876"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/button/BO_TL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1248" selectionTopPixel="837"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="28755" selectionTopPixel="28288"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3297" selectionTopPixel="3016"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/projects_Matsuoka/Step5/05_FingerPaint/src/sample/step5/fingerpaint/FingerPaintActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1844" selectionTopPixel="130"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="58" selectionOffset="4180" selectionTopPixel="2626"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/button/BO_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1892" selectionTopPixel="2106"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
