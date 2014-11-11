@@ -4,15 +4,11 @@
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/listeners/dialog/DB_OCL.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="40234" selectionTopPixel="50112"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/Methods.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="255" selectionTopPixel="500"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/TA2/src/ta2/utils/DBUtils.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="29" selectionOffset="68374" selectionTopPixel="68354"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="147558" selectionTopPixel="172476"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
