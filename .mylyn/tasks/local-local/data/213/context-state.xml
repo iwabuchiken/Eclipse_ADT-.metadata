@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NDKSample/src/ndk/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10001" selectionTopPixel="4366"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NDKSample/jni/NDKSample.hpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="98" selectionOffset="2395" selectionTopPixel="1057"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NDKSample/jni/NDKSample.cpp"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1064" selectionTopPixel="240"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
