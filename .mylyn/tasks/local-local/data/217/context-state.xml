@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/main/FreeMind.java"/>
+<editorState selectionHorizontalPixel="48" selectionLength="33" selectionOffset="3962" selectionTopPixel="2054"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/memos.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/log/log.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="239" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/MenuItemSelectedListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1199" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/Controller.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="7893" selectionTopPixel="2964"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/NodeKeyListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1401" selectionTopPixel="0"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
