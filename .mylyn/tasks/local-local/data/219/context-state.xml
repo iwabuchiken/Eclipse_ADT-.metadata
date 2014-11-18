@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6681" selectionTopPixel="5512"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/view/V_OCL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="687" selectionTopPixel="117"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/view/V_OTL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7188" selectionTopPixel="4693"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10516" selectionTopPixel="10764"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
