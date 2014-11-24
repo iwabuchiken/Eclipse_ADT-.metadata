@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContextState>
 <org.eclipse.mylyn.context.ui.editors>
-<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0"/>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9742" selectionTopPixel="9698"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/DeviceListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="10345" selectionTopPixel="9425"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/BluetoothSample/src/org/japan/techbooster/sample/BlueTooth/DeviceListActivity.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="228" selectionOffset="4396" selectionTopPixel="750"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="15165" selectionTopPixel="16458"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IFM10/src/ifm10/main/MainActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="75" selectionOffset="22172" selectionTopPixel="18720"/>
+</editor>
+<editor id="com.android.ide.eclipse.editors.CommonXmlEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/res/layout/devicelist.xml"/>
+</editor>
+</MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
 </ContextState>
