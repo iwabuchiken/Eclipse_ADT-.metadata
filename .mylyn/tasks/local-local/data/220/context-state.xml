@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/common/CommonNodeKeyListener.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2785" selectionTopPixel="1105"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/memos.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="62" selectionOffset="131" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/viewmodes/ViewControllerAdapter.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1695" selectionTopPixel="200"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/browsemode/BrowseController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1038" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/mindmapmode/MindMapController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="69777" selectionTopPixel="44148"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

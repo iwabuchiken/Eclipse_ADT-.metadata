@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/main/DeviceListActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="6252" selectionTopPixel="5191"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/BluetoothClientThread.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1692" selectionTopPixel="975"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/ReadWriteModel.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1982" selectionTopPixel="1708"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/listeners/button/BO_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2325" selectionTopPixel="2194"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/Methods.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="45433" selectionTopPixel="46675"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/CutPlanner_A/src/cp/utils/CONS.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14344" selectionTopPixel="15262"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
