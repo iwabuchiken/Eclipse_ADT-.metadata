@@ -12,7 +12,11 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/mindmapmode/MindMapController.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="19286" selectionTopPixel="11205"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="58143" selectionTopPixel="35386"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/mindmapmode/actions/EditAction.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5035" selectionTopPixel="3900"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/Controller.java"/>
@@ -20,11 +24,7 @@
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/ControllerAdapter.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="35936" selectionTopPixel="29692"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/NodeKeyListener.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1304" selectionTopPixel="0"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
