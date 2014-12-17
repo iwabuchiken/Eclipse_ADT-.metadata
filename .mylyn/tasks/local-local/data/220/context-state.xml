@@ -19,6 +19,10 @@
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5035" selectionTopPixel="3900"/>
 </editor>
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/view/mindmapview/NodeView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="9941" selectionTopPixel="6474"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/controller/Controller.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="7899" selectionTopPixel="3094"/>
 </editor>

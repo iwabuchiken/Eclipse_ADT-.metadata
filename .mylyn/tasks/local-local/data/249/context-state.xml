@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Proc/src/proc/main/Exponential.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="178" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/WORKS/Downloads/layers/src/com/nootropic/processing/layers/Layer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2205" selectionTopPixel="1430"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/WORKS/Downloads/layers/src/com/nootropic/processing/layers/AppletLayers.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="5707" selectionTopPixel="2932"/>
+</editor>
+<editor id="org.eclipse.cdt.ui.editor.CEditor">
+<input factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" uri="file:/C:/WORKS/Downloads/layers/examples/SimpleAnimation/SimpleAnimation.pde"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="231" selectionTopPixel="0"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
