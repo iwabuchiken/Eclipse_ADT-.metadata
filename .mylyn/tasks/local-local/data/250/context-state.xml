@@ -4,7 +4,19 @@
 <MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
 <editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/view/mindmapview/MapView.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="5" selectionOffset="5302" selectionTopPixel="2262"/>
+<editorState selectionHorizontalPixel="0" selectionLength="347" selectionOffset="24595" selectionTopPixel="20410"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/memos.txt"/>
+<editorState selectionHorizontalPixel="0" selectionLength="60" selectionOffset="131" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/modes/mindmapmode/MindMapController.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="73898" selectionTopPixel="56781"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/freemind_1.0.1/freemind/freemind/view/mindmapview/NodeView.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2728" selectionTopPixel="1742"/>
 </editor>
 </MonitoredWindowOpenEditors>
 </org.eclipse.mylyn.context.ui.editors>
