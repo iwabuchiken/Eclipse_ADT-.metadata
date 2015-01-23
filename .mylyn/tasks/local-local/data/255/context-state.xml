@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/main/SensorsActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="441" selectionOffset="13637" selectionTopPixel="13014"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/main/MagneticActv.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3651" selectionTopPixel="3942"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/listeners/SEL_Magnetic.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2420" selectionTopPixel="2322"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/listeners/STL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3511" selectionTopPixel="3614"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/listeners/buttons/BO_CL.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3970" selectionTopPixel="4030"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/views/CanvasView_4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14200" selectionTopPixel="11718"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/LM1/src/lm1/views/CanvasView_4.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="14093" selectionTopPixel="11718"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>
